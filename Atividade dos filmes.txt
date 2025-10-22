@@ -1,0 +1,22 @@
+
+#Atividade 2: 
+
+#lista com os 20 filmes com maior bilheteria de todos os tempos
+filmes = ("Avatar(2009)", "Vingadores: Ultimato (2019)", "Avatar: O Caminho da Água (2022)", "Titanic (1997)", "Star Wars: Episódio VII – O Despertar da Força (2015)", "Vingadores: Guerra Infinita (2018)", "Homem-Aranha: Sem Volta para Casa (2021)", "Jurassic World: O Mundo dos Dinossauros (2015)", "O Rei Leão (2019)", "Os Vingadores (2012)", "Velozes e Furiosos 7 (2015)", "Top Gun: Maverick (2022)", "Vingadores: Era de Ultron (2015)", "Frozen 2 (2019)", "Super Mario Bros. O Filme (2023)", "Os Incríveis 2 (2018)", "Pantera Negra (2018)", "Star Wars: Episódio VIII – Os Últimos Jedi (2017)", "Jurassic World: Reino Ameaçado (2018)", "A Bela e a Fera (2017)")
+
+
+#a)
+#exibindo apenas os 5 primeiros colocados
+#print(filmes[0: 5])
+
+#b
+#os últimos 4 colocados
+#print(filmes[-4:20])
+
+#c)
+#a lista com os filmes em ordem alfabética
+#print(sorted(filmes))
+
+#D)
+#em que posição está o titanic?
+#print(filmes.index("Titanic (1997)"))
