@@ -1,0 +1,7 @@
+#lista de 0 a 20 por extenso
+lista = ("Zero", "Um", "Dois", "Três", "Quatro", "Cinco", "Seis", "Sete", "Oito", "Nove", "Dez", "Onze", "Doze", "Treze", "Quatorze", "Quinze", "Dezesseis", "Dezessete", "Dezoito", "Dezenove", "Vinte")
+
+numero = int(input("Digite um numero de 0 a 20: "))
+
+#print(lista.index(numero))
+print(lista[numero])
