@@ -1,5 +1,14 @@
 Nome: Gabriel Cardoso e Katharina Sertório 2C
-Codigo
+
+
+print("========================================")
+print("       PROGRAMA DE MATRIZ 3x3           ")
+print("Este programa permite criar uma matriz 3x3,")
+print("calcular a soma dos números pares, a soma")
+print("da terceira coluna e identificar o maior")
+print("valor da segunda linha.")
+print("========================================\n")
+
 # Criando a matriz vazia
 matriz = []
 
