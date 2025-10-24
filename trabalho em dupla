@@ -1,0 +1,36 @@
+Nome: Gabriel Cardoso e Katharina Sertório 2C
+Codigo
+# Criando a matriz vazia
+matriz = []
+
+# Lendo os valores
+for i in range(3):
+    linha = []  # cria uma nova linha
+    for j in range(3):
+        num = int(input(f"Digite um número para [{i},{j}]: "))
+        linha.append(num)
+    matriz.append(linha)
+
+# Mostrando a matriz
+print("\nMatriz:")
+for linha in matriz:
+    print(linha)
+
+# A) Soma dos números pares
+soma_pares = 0
+for linha in matriz:
+    for num in linha:
+        if num % 2 == 0:
+            soma_pares += num
+
+# B) Soma da terceira coluna
+soma_coluna3 = matriz[0][2] + matriz[1][2] + matriz[2][2]
+
+# C) Maior valor da segunda linha
+maior_linha2 = max(matriz[1])
+
+# Mostrando os resultados
+print("\nResultados:")
+print("A) Soma dos números pares:", soma_pares)
+print("B) Soma da terceira coluna:", soma_coluna3)
+print("C) Maior valor da segunda linha:", maior_linha2)
