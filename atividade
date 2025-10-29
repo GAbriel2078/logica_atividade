@@ -1,0 +1,48 @@
+#Primeira Atividade
+matriz_a=[  
+[22, 25, 28, 32],
+[20, 23, 26, 30],
+[18, 22, 25, 29]]
+
+
+
+
+matriz_transposta_a= list(zip(*matriz_a))
+
+
+
+
+for i in range(0, len (matriz_transposta_a)):
+    print(matriz_transposta_a[i])
+
+
+
+
+#Segunda Atividade
+sala_de_cinema=[
+    [0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0]]
+
+
+
+
+def reservar (fileira,assento):
+    sala_cinema[fileira][assento]=1
+def cancelar (fileira,assento):
+    sala_cinema[fileira][assento]=0
+
+reservar(0, 2)  
+reservar(1, 4)  
+reservar(3, 6)  
+
+cancelar(1, 4)
+
+for i in range(0, len(sala_cinema)):
+    print(sala_cinema[i])
+
+Pra fazer a transposição da matriz, usei o zip(*matriz), que basicamente inverte as linhas e colunas sem precisar usar vários “for”. É um jeito bem prático e rápido de girar a matriz.
+Na parte das reservas, utilizei uma matriz pra representar a sala de cinema, onde cada número indica se o assento está livre (0) ou ocupado (1). As funções reservar e cancelar apenas alteram esses valores conforme o assento que a pessoa escolhe.
+Usar matrizes é útil porque dá pra deixar tudo organizado em linhas e colunas, como na vida real. Assim fica mais simples de entender e de manipular os dados do que se fosse só uma lista comum.
